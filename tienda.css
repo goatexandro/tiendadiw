@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #f4dfab;  
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; 
+    background-color:  #f4dfab;  
+    padding: 10px 20px; 
+    color: white; 
+}
+
+.izq a {
+    color: white;
+    margin-right: 20px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.izq a:hover {
+    color: #a45505; 
+}
+
+.centro {
+    text-align: center; 
+}
+
+.centro label {
+    font-size: 1.5em; 
+    font-weight: bold;
+    font-family: 'Dancing Script'; 
+    color: #954d06; 
+
+
+}
+
+.der {
+    text-align: right; 
+}
+
+.der img {
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+    width: 40px; 
+    height: 40px;
+}
