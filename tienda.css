@@ -74,10 +74,7 @@ header {
 
 .contenedor {
     display: flex;
-
-
     gap: 20px;
-
     margin: auto;
     margin-left: 15px;
     margin-right: 15px;
@@ -87,13 +84,11 @@ header {
 
 }
 
-/* Estilos de la card */
 .card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 25%;
-    /* Cuatro columnas con espacio entre ellas */
     display: flex;
     flex-direction: column;
 }
@@ -101,20 +96,16 @@ header {
 .card:hover {
 
     margin-top: -10px;
-    /* Mueve la tarjeta hacia arriba */
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-/* Imagen de la card */
 .card-img {
     width: 100%;
     height: 350px;
     object-fit: cover;
-    /* La imagen se adapta sin distorsionarse */
 }
 
-/* Contenido de la card */
 .card-content {
     padding: 20px;
     flex-grow: 1;
@@ -131,7 +122,6 @@ header {
     margin-bottom: 15px;
 }
 
-/* Botón de la card */
 .card-btn {
     padding: 10px 15px;
     background-color: #007bff;
@@ -180,9 +170,7 @@ header {
 
 .foto-joven {
     width: 100%;
-    /* Imagen ocupa el 100% del contenedor .foto-joven */
     position: relative;
-    /* Necesario para posicionar el texto sobre la imagen */
     cursor: pointer;
 }
 
@@ -213,7 +201,6 @@ header {
 
 .foto-relax {
     width: 150%;
-    /* Imagen ocupa el 100% del contenedor .foto-joven */
     height: 500px;
 }
 
@@ -233,7 +220,6 @@ header {
 .conten-nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* Dos columnas: texto a la izquierda, imagen a la derecha */
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 100px;
@@ -242,21 +228,15 @@ header {
 
 .foto-nosotros img {
     width: 100%;
-    /* Ajusta el ancho de la imagen */
     height: auto;
-    /* Mantiene la proporción de la imagen */
 }
 
 .texto-nosotros {
     padding-right: 20px;
-    /* Espaciado entre texto e imagen */
 
 }
 
-
-
-
-/*Aqui comienza el footer*/
+/*empieza el footer*/
 .footer {
     background-color: #9f5d00;
     padding: 20px;
