@@ -29,6 +29,7 @@ header {
 
 .centro {
     text-align: center;
+    
 }
 
 .centro label {
@@ -36,8 +37,16 @@ header {
     font-weight: bold;
     font-family: 'Dancing Script';
     color: #f4dfab;
+   
 
+}
 
+.centro label a{
+    text-decoration: none;
+}
+
+.centro label:hover {
+    cursor: pointer;
 }
 
 .der {
@@ -51,7 +60,7 @@ header {
     height: 40px;
 }
 
-.der img:hover{
+.der img:hover {
     cursor: pointer;
 }
 
@@ -73,6 +82,7 @@ header {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 70px;
+    margin-bottom: 70px;
 
 
 }
@@ -221,7 +231,8 @@ header {
 
 .conten-nosotros {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas: texto a la izquierda, imagen a la derecha */
+    grid-template-columns: 1fr 1fr;
+    /* Dos columnas: texto a la izquierda, imagen a la derecha */
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 100px;
@@ -229,13 +240,16 @@ header {
 
 
 .foto-nosotros img {
-    width: 100%; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%;
+    /* Ajusta el ancho de la imagen */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
 }
 
 .texto-nosotros {
-    padding-right: 20px; /* Espaciado entre texto e imagen */
-   
+    padding-right: 20px;
+    /* Espaciado entre texto e imagen */
+
 }
 
 
@@ -246,7 +260,7 @@ header {
     background-color: #9f5d00;
     padding: 20px;
     text-align: right;
-  
+
 }
 
 .footer-content {
@@ -279,9 +293,3 @@ header {
     text-align: center;
 
 }
-
-
-
-
-
-
