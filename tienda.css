@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4dfab;
+    background-color: #573e02;
 
 }
 
@@ -11,7 +11,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-color: #9f5d00;
+    background-color: #573e02;
     padding: 10px 20px;
     color: white;
 }
@@ -68,7 +68,7 @@ header {
 
 .raya {
 
-    background-color: #954d06;
+    background-color: #f4dfab;
 
 }
 
@@ -214,6 +214,7 @@ header {
 
 .texto-relax {
     margin-left: 450px;
+    color: #f4dfab;
 
 }
 
@@ -233,12 +234,16 @@ header {
 
 .texto-nosotros {
     padding-right: 20px;
+    color: #f4dfab;
+
 
 }
 
 /*empieza el footer*/
+
+
 .footer {
-    background-color: #9f5d00;
+    background-color: #573e02;
     padding: 20px;
     text-align: right;
 
