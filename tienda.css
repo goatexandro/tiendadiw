@@ -85,7 +85,7 @@ header {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #f4dfab;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 25%;
@@ -124,7 +124,7 @@ header {
 
 .card-btn {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #000000;
     color: white;
     text-decoration: none;
     font-size: 1em;
