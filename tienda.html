@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tienda.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing Script&display=swap" rel="stylesheet">
-
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <title>mubele</title>
 
 
@@ -18,7 +19,7 @@
     <header class="header">
         <div class="izq">
             <a href="#contacto">CONTACTO</a>
-            <a href="#sobremi">SOBRE NOSOTROS </a>
+            <a href="#sobremi"><label>SOBRE</label> NOSOTROS </a>
         </div>
 
         <div class="centro">
@@ -31,8 +32,8 @@
                 width="10px" style="background: transparent; border-radius: 0; border: none; box-shadow: none;">
 
 
-            <img src="carro.png" alt="esto es un png q se hace pasar como el carrito para guardar productos"
-                width="5px" style="background: transparent; border-radius: 0; border: none; box-shadow: none;">
+            <img src="carro.png" alt="esto es un png q se hace pasar como el carrito para guardar productos" width="5px"
+                style="background: transparent; border-radius: 0; border: none; box-shadow: none;">
         </div>
     </header>
 
@@ -176,9 +177,19 @@
             <img src="sobre nosotros.jpg" alt="Imagen 2" class="card-img">
         </div>
     </div>
-    <br>
+
+
+    <div id="aside">
+        <model-viewer src ="scene.gltf" auto-rotate camera-controls ar ios-src=""></model-viewer>
+    </aside>
+</div>
+
+
     <div class="raya">
         <br>
+    </div>
+
+ 
     </div>
     <footer class="footer" id="contacto">
         <div class="footer-contenido">
